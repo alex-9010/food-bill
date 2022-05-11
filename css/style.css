@@ -423,7 +423,7 @@ h6 {
 }
 .menu__item {
   color: #000;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 @media (max-width: 47.99875em) {
   .menu__item {
@@ -436,7 +436,7 @@ h6 {
   color: #F16214;
 }
 @media (any-hover: hover) {
-  .menu__item menu__link:hover {
+  .menu__item .menu__link:hover {
     color: #F16214;
   }
 }
